@@ -1,0 +1,10 @@
+[package]
+name = "nqcsv"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+itoa = { version = "1.0.11", features = ["no-panic"] }
+ryu = { version = "1.0.18", features = ["no-panic"] }
+serde = "1.0.203"
+thiserror = "1.0.61"
